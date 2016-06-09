@@ -1,0 +1,9 @@
+{
+  "name": "npm-11581-repro",
+  "description": "`npm install`'ing inside of an `npm install` is broken in npm ^3.7",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "install": "node install"
+  }
+}
